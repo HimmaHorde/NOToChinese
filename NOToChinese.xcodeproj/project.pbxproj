@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3E0085F91AD5467300279075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0085F81AD5467300279075 /* main.m */; };
 		3E0085FC1AD5467300279075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0085FB1AD5467300279075 /* AppDelegate.m */; };
-		3E0085FF1AD5467300279075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0085FE1AD5467300279075 /* ViewController.m */; };
 		3E0086021AD5467300279075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0086001AD5467300279075 /* Main.storyboard */; };
 		3E0086041AD5467300279075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0086031AD5467300279075 /* Images.xcassets */; };
 		3E0086071AD5467300279075 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0086051AD5467300279075 /* LaunchScreen.xib */; };
 		3E0086131AD5467300279075 /* NOToChineseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0086121AD5467300279075 /* NOToChineseTests.m */; };
+		3E0086371AD5595800279075 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0086361AD5595800279075 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		3E0085F81AD5467300279075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E0085FA1AD5467300279075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E0085FB1AD5467300279075 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E0085FD1AD5467300279075 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E0085FE1AD5467300279075 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E0086011AD5467300279075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E0086031AD5467300279075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E0086061AD5467300279075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E00860C1AD5467300279075 /* NOToChineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOToChineseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0086111AD5467300279075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0086121AD5467300279075 /* NOToChineseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOToChineseTests.m; sourceTree = "<group>"; };
+		3E0086351AD5595800279075 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3E0086361AD5595800279075 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				3E0085FA1AD5467300279075 /* AppDelegate.h */,
 				3E0085FB1AD5467300279075 /* AppDelegate.m */,
-				3E0085FD1AD5467300279075 /* ViewController.h */,
-				3E0085FE1AD5467300279075 /* ViewController.m */,
+				3E0086351AD5595800279075 /* RootViewController.h */,
+				3E0086361AD5595800279075 /* RootViewController.m */,
 				3E0086001AD5467300279075 /* Main.storyboard */,
 				3E0086031AD5467300279075 /* Images.xcassets */,
 				3E0086051AD5467300279075 /* LaunchScreen.xib */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0085FF1AD5467300279075 /* ViewController.m in Sources */,
 				3E0085FC1AD5467300279075 /* AppDelegate.m in Sources */,
 				3E0085F91AD5467300279075 /* main.m in Sources */,
+				3E0086371AD5595800279075 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +414,7 @@
 				3E0086181AD5467300279075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0086191AD5467300279075 /* Build configuration list for PBXNativeTarget "NOToChineseTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				3E00861B1AD5467300279075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
